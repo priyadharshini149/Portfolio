@@ -2,6 +2,7 @@ import "./sideNav.css";
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { routes } from "../../routes";
+import { Link } from "react-router-dom";
 function SideNav() {
   const location = useLocation();
   return (
@@ -9,52 +10,52 @@ function SideNav() {
       <div className="side-nav">
         <ul>
           <li>
-            <a
+            <Link
+              to={routes.home}
               className={location.pathname === routes.home ? "link-active" : ""}
-              href={routes.home}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to={routes.about}
               className={
                 location.pathname === routes.about ? "link-active" : ""
               }
-              href={routes.about}
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to={routes.project}
               className={
                 location.pathname === routes.project ? "link-active" : ""
               }
-              href={routes.project}
             >
-              Projects
-            </a>
+              Project
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to={routes.resume}
               className={
                 location.pathname === routes.resume ? "link-active" : ""
               }
-              href={routes.resume}
             >
               Resume
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to={routes.contact}
               className={
                 location.pathname === routes.contact ? "link-active" : ""
               }
-              href={routes.contact}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
