@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact-container {
+  margin: 0;
+  padding: 0;
+  background-color: #060505;
+  height: 100vh;
+  color: white;
+}
+.contact-content {
+  justify-content: center;
+
+  position: absolute;
+  width: 57%;
+  float: right;
+  text-align: left;
+  left: 25rem;
+  top: 3rem;
+}
+.contact-content h1 {
+  font-size: 45px;
+}
+.contact-content p {
+  font-size: 17px;
+  line-height: 2;
+}
+.contact-content span {
+  background-color: #212529;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 10px;
+}
+.contact-content .in {
+  margin-bottom: 20px;
+}
+.contact-content .in input {
+  background-color: transparent;
+  padding: 1rem;
+  color: white;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.contact-content .in textarea {
+  background-color: transparent;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
