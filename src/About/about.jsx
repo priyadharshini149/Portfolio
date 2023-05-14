@@ -1,7 +1,7 @@
 import "./about.css";
 import React from "react";
-import { Link } from "react-router-dom";
-import { routes } from "../routes";
+// import { Link } from "react-router-dom";
+// import { routes } from "../routes";
 function about() {
   return (
     <div className="about-container">
@@ -40,9 +40,9 @@ function about() {
           </ul>
           <br></br>
         </div>
-        <Link to={routes.project} style={{ textDecoration: "none" }}>
+        {/* <Link to={routes.project} style={{ textDecoration: "none" }}>
           <p style={{ fontSize: "15px", color: "white" }}>Have a look at my projects -></p>
-        </Link>
+        </Link> */}
        
       </div>
     </div>

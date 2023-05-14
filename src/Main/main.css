@@ -1,0 +1,58 @@
+.Main {
+  margin: 0;
+  background-color: #060505;
+  padding: 0;
+  color: white;
+}
+.side-nav {
+  float: left;
+  background-color: #0d0c0c;
+  color: rgb(226, 224, 224);
+  height: 100vh;
+  width: 13%;
+  position: fixed;
+  text-align: center;
+}
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.side-nav ul li {
+  padding: 1.5rem;
+}
+.side-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.side-nav .link-active {
+  color: #f7c617;
+  text-decoration: none;
+}
+#home {
+  height: 100vh;
+}
+.linking {
+  padding-left: 350px;
+}
+#about {
+  height: 120vh;
+}
+
+#project {
+  height: 180vh;
+}
+#resume {
+  height: 160vh;
+}
+#contact {
+  height: 100vh;
+}
+
+.side-nav .link-active {
+  color: #f7c617;
+  text-decoration: none;
+}

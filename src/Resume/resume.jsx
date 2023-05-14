@@ -1,7 +1,7 @@
 import "./resume.css";
 import React from "react";
-import { Link } from "react-router-dom";
-import { routes } from "../routes";
+// import { Link } from "react-router-dom";
+// import { routes } from "../routes";
 import { saveAs } from "file-saver";
 function resume() {
   const handleClick = () => {
@@ -34,11 +34,11 @@ function resume() {
           </div>
         </div>
         <br></br>
-        <Link to={routes.contact} style={{ textDecoration: "none" }}>
+        {/* <Link to={routes.contact} style={{ textDecoration: "none" }}>
           <p style={{ fontSize: "15px", color: "white" }}>
             Lets get in touch ->
           </p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

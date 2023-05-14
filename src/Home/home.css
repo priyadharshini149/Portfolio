@@ -2,21 +2,21 @@
   margin: 0;
   padding: 0;
 }
+
 .home-container {
   margin: 0;
   padding: 0;
   background-color: #060505;
-  height: 100vh;
+  padding-top: 10rem;
+
+  /* height: 80vh; */
   color: white;
 }
 .home-content {
-  justify-content: center;
+  width: 60%;
 
-  position: absolute;
-  width: 57%;
-  float: right;
   text-align: left;
-  left: 25rem;
+  padding-left: 350px;
   top: 10rem;
 }
 .home-content h1 {

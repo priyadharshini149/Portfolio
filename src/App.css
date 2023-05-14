@@ -1,6 +1,22 @@
 .App {
-  text-align: center;
   margin: 0;
   background-color: #060505;
   padding: 0;
+  color: white;
+}
+
+/* scroll to top button */
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
 }

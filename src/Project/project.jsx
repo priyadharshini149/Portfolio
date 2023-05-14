@@ -1,7 +1,7 @@
 import "./project.css";
 import React from "react";
-import { Link } from "react-router-dom";
-import { routes } from "../routes";
+// import { Link } from "react-router-dom";
+// import { routes } from "../routes";
 
 function project() {
   return (
@@ -70,9 +70,9 @@ function project() {
           </div>
         </div>
         <br></br>
-        <Link to={routes.resume} style={{ textDecoration: "none" }}>
+        {/* <Link to={routes.resume} style={{ textDecoration: "none" }}>
           <p style={{ fontSize: "15px", color: "white" }}>Go through my resume -></p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

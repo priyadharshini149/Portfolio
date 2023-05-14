@@ -1,7 +1,7 @@
 import "./contact.css";
 import React from "react";
-import { Link } from "react-router-dom";
-import { routes } from "../routes";
+// import { Link } from "react-router-dom";
+// import { routes } from "../routes";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 function Contact() {
@@ -61,9 +61,9 @@ function Contact() {
           </button>
         </form>
         <br></br>
-        <Link to={routes.home} style={{ textDecoration: "none" }}>
+        {/* <Link to={routes.home} style={{ textDecoration: "none" }}>
           <p style={{ fontSize: "15px", color: "white" }}>Back</p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

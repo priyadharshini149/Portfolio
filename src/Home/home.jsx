@@ -1,10 +1,13 @@
 import "./home.css";
-
+// import About from "../About/about";
 import React from "react";
-import { Link } from "react-router-dom";
-import { routes } from "../routes";
+// import { Link } from "react-router-dom";
+// import { routes } from "../routes";
+// import { useLocation } from "react-router-dom";
+// import { useRef } from "react";
+function Home() {
+  // const location = useLocation();
 
-function home() {
   return (
     <div className="home-container">
       <div className="home-content">
@@ -26,12 +29,12 @@ function home() {
         </p>
         <br></br>
         <br></br>
-        <Link to={routes.about} style={{ textDecoration: "none" }}>
+        {/* <Link to="#about" style={{ textDecoration: "none" }}>
           <p style={{ fontSize: "15px", color: "white" }}>About me -></p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
 }
 
-export default home;
+export default Home;

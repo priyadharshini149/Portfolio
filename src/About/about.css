@@ -6,18 +6,15 @@
   margin: 0;
   padding: 0;
   background-color: #060505;
-  height: 100vh;
+
   color: white;
+  padding-top: 3rem;
 }
 .about-content {
-  justify-content: center;
-
-  position: absolute;
-  width: 57%;
-  float: right;
+  width: 60%;
+  padding-left: 350px;
   text-align: left;
   left: 25rem;
-  top: 5rem;
 }
 .about-content h1 {
   font-size: 45px;
