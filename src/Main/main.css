@@ -42,7 +42,7 @@
 }
 
 #about {
-  height: 140vh;
+  height: 135vh;
 }
 
 #project {
@@ -64,11 +64,9 @@
   margin-left: 5px;
   transition: 0.5s;
 }
-.linking:hover
-{
-    color: #f7c617; 
-    .arrow {
-        transform: translateX(5px);
-      }
+.linking:hover {
+  color: #f7c617;
+  .arrow {
+    transform: translateX(5px);
+  }
 }
-
