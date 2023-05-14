@@ -22,6 +22,7 @@
 
 .side-nav ul li {
   padding: 1.5rem;
+  cursor: pointer;
 }
 .side-nav a {
   text-decoration: none;
@@ -37,16 +38,18 @@
 }
 .linking {
   padding-left: 350px;
+  cursor: pointer;
 }
+
 #about {
-  height: 120vh;
+  height: 140vh;
 }
 
 #project {
-  height: 180vh;
+  height: 200vh;
 }
 #resume {
-  height: 160vh;
+  height: 180vh;
 }
 #contact {
   height: 100vh;
@@ -56,3 +59,16 @@
   color: #f7c617;
   text-decoration: none;
 }
+.arrow {
+  color: #f7c617;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+.linking:hover
+{
+    color: #f7c617; 
+    .arrow {
+        transform: translateX(5px);
+      }
+}
+

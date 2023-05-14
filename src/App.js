@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import Main from "./Main/main";
-import ScrollToUp from "./components/scrollup/scrollToUp";
+
 
 // import SideNav from "./components/sideNav/sideNav";
 // import { Routes, Route } from "react-router-dom";

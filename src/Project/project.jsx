@@ -31,7 +31,7 @@ function project() {
         </div>
 
         <div className="project">
-          <div className="desc" style={{ marginRight: "7rem" }}>
+          <div className="desc" style={{ marginRight: "10rem" }}>
             <h3> Quiz Application</h3>
             <p>
               <span>HTML</span> <span>CSS</span> <span>Javascript</span>
