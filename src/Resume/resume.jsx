@@ -16,7 +16,11 @@ function resume() {
         <p>
           View or{" "}
           <button
-            style={{ padding: "2px", borderRadius: "5px", border: "none" }}
+            style={{
+              padding: "0px",
+              borderRadius: "5px",
+              border: "none",
+            }}
             onClick={handleClick}
           >
             Download

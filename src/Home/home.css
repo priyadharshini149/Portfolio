@@ -12,7 +12,6 @@
   width: 60%;
   text-align: left;
   margin: auto;
-  top: 10rem;
 }
 .home-content h1 {
   font-size: 45px;
@@ -31,6 +30,11 @@ span {
     width: 80%;
 
     margin: auto;
-    top: 5rem;
+    top: 1rem;
+  }
+  .home-container {
+    padding-top: 8rem;
+
+    color: white;
   }
 }

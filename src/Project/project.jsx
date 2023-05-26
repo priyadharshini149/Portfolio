@@ -15,7 +15,7 @@ function project() {
         <h1>Projects</h1>
         <br></br>
         <br></br>
-        <Row lg={12}>
+        <Row lg={12} className="project">
           <Col lg={8}>
             <img
               src="/assets/image/discord.png"
@@ -35,10 +35,9 @@ function project() {
             </p>
           </Col>
         </Row>
-        <br></br>
-        <br></br>
-        <Row lg={12}>
-          <Col lg={8}>
+
+        <Row lg={12} className="project">
+          <Col lg={6}>
             <h3> Quiz Application</h3>
             <p>
               <span>HTML</span> <span>CSS</span> <span>Javascript</span>
@@ -49,13 +48,12 @@ function project() {
               <a href="https://quiz-tym.netlify.app/index.html">Check out</a>
             </p>
           </Col>
-          <Col lg={4}>
+          <Col lg={6}>
             <img src="/assets/image/quiz.png" alt="quiz" className="quiz"></img>
           </Col>
         </Row>
-        <br></br>
-        <br></br>
-        <Row lg={12}>
+
+        <Row lg={12} className="project" style={{ paddingBottom: "0px" }}>
           <Col lg={8}>
             <img
               src="/assets/image/studmang.png"
