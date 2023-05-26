@@ -3,16 +3,13 @@
   padding: 0;
 }
 .contact-container {
-  margin: 0;
-  padding: 0;
-  background-color: #060505;
-
+  
   color: white;
   padding-top: 3rem;
 }
 .contact-content {
-  width: 57%;
-  padding-left: 350px;
+  width: 60%;
+  margin: auto;
   text-align: left;
   left: 25rem;
 }

@@ -3,16 +3,12 @@
   padding: 0;
 }
 .about-container {
-  margin: 0;
-  padding: 0;
-  background-color: #060505;
-
   color: white;
   padding-top: 3rem;
 }
 .about-content {
   width: 60%;
-  padding-left: 350px;
+  margin: auto;
   text-align: left;
   left: 25rem;
 }

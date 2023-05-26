@@ -163,6 +163,7 @@ function Main() {
           {" "}
           Go Back <AiOutlineArrowRight className="arrow" />
         </p>
+        <bR></bR>
       </div>
       {/* <Routes>
         <Route path={routes.home} element={<Home />} />

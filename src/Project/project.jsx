@@ -2,22 +2,29 @@ import "./project.css";
 import React from "react";
 // import { Link } from "react-router-dom";
 // import { routes } from "../routes";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
+// import Button from 'react-bootstrap/Button';
 
 function project() {
   return (
     <div className="project-container">
       <div className="project-content">
         <h1>Projects</h1>
-
-        <div className="project">
-          <div className="image">
+        <br></br>
+        <br></br>
+        <Row lg={12}>
+          <Col lg={8}>
             <img
               src="/assets/image/discord.png"
               alt="discord"
               className="discord"
             ></img>
-          </div>
-          <div className="desc">
+          </Col>
+          <Col lg={4}>
             <h3> Discord Clone</h3>
             <p>
               <span>React Js</span> <span>Boostrap</span>
@@ -27,11 +34,12 @@ function project() {
               <br></br>
               <a href="https://snowpack.netlify.app/">Check out</a>
             </p>
-          </div>
-        </div>
-
-        <div className="project">
-          <div className="desc" style={{ marginRight: "10rem" }}>
+          </Col>
+        </Row>
+        <br></br>
+        <br></br>
+        <Row lg={12}>
+          <Col lg={8}>
             <h3> Quiz Application</h3>
             <p>
               <span>HTML</span> <span>CSS</span> <span>Javascript</span>
@@ -41,21 +49,22 @@ function project() {
               <br></br>
               <a href="https://quiz-tym.netlify.app/index.html">Check out</a>
             </p>
-          </div>
-          <div className="image">
+          </Col>
+          <Col lg={4}>
             <img src="/assets/image/quiz.png" alt="quiz" className="quiz"></img>
-          </div>
-        </div>
-
-        <div className="project">
-          <div className="image">
+          </Col>
+        </Row>
+        <br></br>
+        <br></br>
+        <Row lg={12}>
+          <Col lg={8}>
             <img
               src="/assets/image/studmang.png"
               alt="studmang"
               className="studmang"
             ></img>
-          </div>
-          <div className="desc">
+          </Col>
+          <Col lg={4}>
             <h3> Student Management</h3>
             <p>
               <span>Node Js</span> <span>MongoDB</span>
@@ -67,8 +76,8 @@ function project() {
                 Check out
               </a>
             </p>
-          </div>
-        </div>
+          </Col>
+        </Row>
         <br></br>
         {/* <Link to={routes.resume} style={{ textDecoration: "none" }}>
           <p style={{ fontSize: "15px", color: "white" }}>Go through my resume -></p>

@@ -3,16 +3,12 @@
   padding: 0;
 }
 .resume-container {
-  margin: 0;
-  padding: 0;
-  background-color: #060505;
-
   color: white;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 .resume-content {
-  width: 65%;
-  padding-left: 350px;
+  width: 60%;
+  margin: auto;
   text-align: left;
   left: 25rem;
 }
@@ -25,12 +21,26 @@
 }
 .resume-holder {
   background-color: #292828;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .resume {
-  padding: 1rem;
+  /* background-color: aqua; */
+  width: 60%;
+  margin: auto;
 }
 .resume img {
-  width: 40rem;
+  width: 35rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .resume img {
+    width: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .resume img {
+    width: 20rem;
+  }
 }
