@@ -34,27 +34,10 @@
   color: #f7c617;
   text-decoration: none;
 }
-#home {
-  /* height: 100vh; */
-  /* background-color: aqua; */
-}
+
 .linking {
   cursor: pointer;
   padding-left: 310px;
-}
-
-#about {
-  /* height: 130vh; */
-}
-
-#project {
-  /* height: 200vh; */
-}
-#resume {
-  /* height: 180vh; */
-}
-#contact {
-  /* height: 100vh; */
 }
 
 .side-nav .link-active {
@@ -78,6 +61,6 @@
     visibility: hidden;
   }
   .linking {
-    padding-left: 100px;
+    padding-left: 50px;
   }
 }

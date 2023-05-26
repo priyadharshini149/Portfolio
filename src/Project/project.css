@@ -50,16 +50,22 @@
   font-size: 20px;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .project-container img {
     width: 23rem;
     height: 15rem;
+  }
+  .project-content {
+    width: 80%;
+
+    margin: auto;
+    top: 5rem;
   }
 }
 
 @media only screen and (max-width: 1500px) {
   .project-container img {
     width: 23.25rem;
-    height: 20rem;
+    height: 15rem;
   }
 }

@@ -37,6 +37,17 @@
   .resume img {
     width: 16rem;
   }
+  .resume-content {
+    width: 80%;
+
+    margin: auto;
+    top: 5rem;
+  }
+  .resume {
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 1500px) {
