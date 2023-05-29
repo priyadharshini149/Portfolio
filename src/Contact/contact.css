@@ -3,15 +3,13 @@
   padding: 0;
 }
 .contact-container {
-  
   color: white;
-  padding-top: 3rem;
+  padding-top: 6rem;
 }
 .contact-content {
   width: 60%;
   margin: auto;
   text-align: left;
-  left: 25rem;
 }
 .contact-content h1 {
   font-size: 45px;

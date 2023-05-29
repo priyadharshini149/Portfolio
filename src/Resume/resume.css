@@ -26,11 +26,11 @@
 }
 .resume {
   /* background-color: aqua; */
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 .resume img {
-  width: 35rem;
+  width: 40rem;
 }
 
 @media only screen and (max-width: 700px) {

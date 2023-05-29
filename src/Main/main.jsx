@@ -40,9 +40,6 @@ function Main() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      console.log(window.pageYOffset);
-      console.log(home.current.offsetTop);
-      console.log(about.current.offsetTop);
       if (
         window.pageYOffset >= home.current.offsetTop &&
         window.pageYOffset < about.current.offsetTop
@@ -78,12 +75,14 @@ function Main() {
       }
 
       if (window.pageYOffset >= contact.current.offsetTop) {
+        console.log("contact:" + contact.current.offsetTop);
+        console.log("window:" + window.pageYOffset);
         setlinkContact(true);
       } else {
         setlinkContact(false);
       }
 
-      if (window.pageYOffset > 700) {
+      if (window.pageYOffset > 600) {
         setShowScrollTopButton(true);
       } else {
         setShowScrollTopButton(false);
@@ -131,39 +130,38 @@ function Main() {
           </li>
         </ul>
       </div>
-      <div id="home" ref={home}>
+      <div id="home" ref={home} style={{ paddingBottom: "12rem" }}>
         <Home />
         <p class="linking" onClick={() => scrollToSection(about)}>
-          About me <AiOutlineArrowRight className="arrow"/>
+          About me <AiOutlineArrowRight className="arrow" />
         </p>
       </div>
-      <div id="about" ref={about}>
+      <div id="about" ref={about} style={{ paddingBottom: "4rem" }}>
         <About />
         <p class="linking" onClick={() => scrollToSection(project)}>
-          Have a look at my projects <AiOutlineArrowRight className="arrow"/>
+          Have a look at my projects <AiOutlineArrowRight className="arrow" />
         </p>
       </div>
-      <div id="project" ref={project}>
+      <div id="project" ref={project} style={{ paddingBottom: "4rem" }}>
         <Project />
 
         <p class="linking" onClick={() => scrollToSection(resume)}>
           Go through my resume <AiOutlineArrowRight className="arrow" />
         </p>
       </div>
-      <div id="resume" ref={resume}>
+      <div id="resume" ref={resume} style={{ paddingBottom: "6rem" }}>
         <Resume />
         <p class="linking" onClick={() => scrollToSection(contact)}>
           {" "}
-          Lets get in touch <AiOutlineArrowRight className="arrow"/>
+          Lets get in touch <AiOutlineArrowRight className="arrow" />
         </p>
       </div>
-      <div id="contact" ref={contact}>
+      <div id="contact" ref={contact} style={{ paddingBottom: "4rem" }}>
         <Contact />
         <p class="linking" onClick={() => scrollToSection(home)}>
           {" "}
           Go Back <AiOutlineArrowRight className="arrow" />
         </p>
-        <bR></bR>
       </div>
       {/* <Routes>
         <Route path={routes.home} element={<Home />} />
