@@ -31,7 +31,7 @@ function resume() {
         <div className="resume-holder">
           <div className="resume">
             <img
-              src="/assets/image/resume.jpg"
+              src="/assets/image/updated_resume.jpg"
               alt="resume"
               className="res"
             ></img>
